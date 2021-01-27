@@ -13,6 +13,10 @@
 		AB41247325C217FE0058897F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB41247125C217FE0058897F /* Main.storyboard */; };
 		AB41247525C217FF0058897F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB41247425C217FF0058897F /* Assets.xcassets */; };
 		AB41247825C217FF0058897F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB41247625C217FF0058897F /* LaunchScreen.storyboard */; };
+		AB41248425C218650058897F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB41248325C218650058897F /* RegisterViewController.swift */; };
+		AB41248825C2186F0058897F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB41248725C2186F0058897F /* LoginViewController.swift */; };
+		AB41248B25C218810058897F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB41248A25C218810058897F /* ChatViewController.swift */; };
+		AB41248E25C2189E0058897F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB41248D25C2189E0058897F /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		AB41247425C217FF0058897F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB41247725C217FF0058897F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB41247925C217FF0058897F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB41248325C218650058897F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AB41248725C2186F0058897F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AB41248A25C218810058897F /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		AB41248D25C2189E0058897F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,9 @@
 		AB41246A25C217FE0058897F /* ChurrasDH */ = {
 			isa = PBXGroup;
 			children = (
+				AB41248225C218520058897F /* Controllers */,
+				AB41248125C2184B0058897F /* Models */,
+				AB41248025C218430058897F /* Views */,
 				AB41246B25C217FE0058897F /* AppDelegate.swift */,
 				AB41246D25C217FE0058897F /* SceneDelegate.swift */,
 				AB41246F25C217FE0058897F /* ViewController.swift */,
@@ -65,6 +76,31 @@
 				AB41247925C217FF0058897F /* Info.plist */,
 			);
 			path = ChurrasDH;
+			sourceTree = "<group>";
+		};
+		AB41248025C218430058897F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB41248125C2184B0058897F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB41248225C218520058897F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB41248325C218650058897F /* RegisterViewController.swift */,
+				AB41248725C2186F0058897F /* LoginViewController.swift */,
+				AB41248A25C218810058897F /* ChatViewController.swift */,
+				AB41248D25C2189E0058897F /* WelcomeViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +176,10 @@
 				AB41247025C217FE0058897F /* ViewController.swift in Sources */,
 				AB41246C25C217FE0058897F /* AppDelegate.swift in Sources */,
 				AB41246E25C217FE0058897F /* SceneDelegate.swift in Sources */,
+				AB41248825C2186F0058897F /* LoginViewController.swift in Sources */,
+				AB41248B25C218810058897F /* ChatViewController.swift in Sources */,
+				AB41248425C218650058897F /* RegisterViewController.swift in Sources */,
+				AB41248E25C2189E0058897F /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
